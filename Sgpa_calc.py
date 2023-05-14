@@ -55,6 +55,12 @@ for i in range(n):
         pt=5
     elif(tm>30 and tm<=40):
         pt=4
+    elif(tm>20 and tm<=30):
+        pt=3
+    elif(tm>10 and tm<=20):
+        pt=2
+    elif(tm>0 and tm<=10):
+        pt=1
     ptr = pt*crd
     gd_ptr.append(ptr)
     
@@ -76,6 +82,12 @@ for i in range(m):
         pt=5
     elif(tm>30 and tm<=40):
         pt=4
+    elif(tm>20 and tm<=30):
+        pt=3
+    elif(tm>10 and tm<=20):
+        pt=2
+    elif(tm>0 and tm<=10):
+        pt=1
     ptr = pt*crd
     gd_ptr_l.append(ptr)
     
