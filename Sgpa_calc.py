@@ -18,7 +18,7 @@ for i in range(n):
     crd_t.append(cr)
     ms.append(cr)
     ms.append(int(input(f"Enter the average mid sem marks of the {sub[i]} (out of 20): ")))
-    ms.append(int(input(f"Enter the quiz assignment and prof marks combined of the {sub[i]} (out of 20): ")))
+    ms.append(int(input(f"Enter the quiz assignment and proficiency marks combined of the {sub[i]} (out of 30): ")))
     ms.append(int(input(f"Enter the expected end sem marks of the {sub[i]} (out of 50): ")))
     theory.append(ms)
 
