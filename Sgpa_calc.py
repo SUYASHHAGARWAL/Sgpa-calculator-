@@ -86,3 +86,4 @@ final_crd= sum(crd_l) + sum(crd_t)
 p=sum(gd_ptr) + sum(gd_ptr_l)
 cgpa=p/final_crd
 print(cgpa)
+print("Your sgpa will be in between ", cgpa-0.2, " and ", cgpa+0.2)
